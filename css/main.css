@@ -342,7 +342,7 @@ Navbar
 
   .nav-header {
     height: auto;
-    margin-right: 2rem; 
+    margin-right: 2rem;
   }
 
   .nav-links {
@@ -350,7 +350,6 @@ Navbar
     height: auto;
     align-items: center;
     width: 100%;
-
   }
 
   .nav-link {
@@ -364,4 +363,42 @@ Navbar
     margin-left: auto;
     margin-right: 0;
   }
+}
+
+/*
+=============== 
+Main
+===============
+*/
+
+main {
+  background-color: red;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 2rem));
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+
+footer {
+  height: 2rem;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+s
+.footer-logo {
+  color: var(--primary-500);
 }
