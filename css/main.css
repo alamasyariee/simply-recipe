@@ -50,7 +50,7 @@ html {
   --textColor: var(--grey-900);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
+  --transition: 0.4s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
 
@@ -299,6 +299,13 @@ Navbar
   display: flex;
   flex-direction: column;
   /* TODO */
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links {
+  height: 310px;
 }
 
 .nav-link {
